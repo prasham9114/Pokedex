@@ -164,7 +164,7 @@ document.getElementById('searchBar').addEventListener('keyup', function(event) {
             var pokeNum = number[i].textContent.toLowerCase();
             if (pokeNum === searchTerm)
             {
-                var location="/poke-pages/"+pokeNum+".html"
+                var location="/pokedex/poke-pages/"+pokeNum+".html"
                 window.location.href=location;
             }
         }
@@ -188,7 +188,7 @@ document.getElementById('searchBar').addEventListener('keyup', function(event) {
                 {
                     pokeNumStr=pokeNumStrRaw+".html";
                 }
-                var location="/poke-pages/"+pokeNumStr;
+                var location="/pokedex/poke-pages/"+pokeNumStr;
                 window.location.href=location;
             }
         }
